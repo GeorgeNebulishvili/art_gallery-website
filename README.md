@@ -1,1 +1,2 @@
-# art_gallery-website
+# art_gallery-website --- work in progress ...
+https://georgenebulishvili.github.io/art_gallery-website/
