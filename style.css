@@ -25,6 +25,10 @@ body    {
     --darkgray: #444444;
 }
 
+.zebra-top  {
+    width: 100%;
+}
+
 .main   {
     max-width: 100%;
     padding: 0 16px;
@@ -91,44 +95,23 @@ p   {
     margin-bottom: 32px;
 }
 
-.black  {
-    display: none;
-}
-
-.img     {
+.img, 
+.img-mob, 
+.header-img-mob     {
     width: 100%;
 }
 
-.img-tab    {
+.img-tab,
+.header-img-tab,
+.middle-img,
+.img-tab-last,
+.header-img-des,
+.img-des,
+.middle-img-desk,
+.black,
+.img-des-last   {
     display: none;
 } 
-.header-img-tab {
-    display: none;
-}
-.middle-img {
-    display: none;
-}
-.img-tab-last   {
-    display: none;
-}
-.header-img-mob {
-    width: 100%;
-}
-.header-img-des {
-    display: none;
-}
-
-.img-mob    {
-    width: 100%;
-}
-
-.img-des    {
-    display: none;
-}
-
-.middle-img-desk    {
-    display: none;
-}
 
 h2  {
     font-weight: 900;
@@ -224,7 +207,9 @@ h2  {
         line-height: 65px;
     }
 
-    .img-mob    {
+    .img-mob,
+    .header-img-mob,
+    .img-des-last    {
         display: none;
     }
 
@@ -238,14 +223,6 @@ h2  {
         width: 56.5%;
         position: relative;
         left: 0%;
-    }
-
-    .header-img-mob  {
-        display: none;
-    }
-
-    .img-des-last   {
-        display: none;
     }
 
     .intro  {
@@ -344,7 +321,8 @@ h2  {
             margin-bottom: 180px;
         }
 
-        .header-img-tab {
+        .header-img-tab,
+        .middle-img {
             display: none;
         }
 
@@ -413,10 +391,6 @@ h2  {
         .description-white-footer   {
             margin-left: 140px;
             margin-right: 280px;
-        }
-
-        .middle-img     {
-            display: none;
         }
 
         .middle-img-desk    {
