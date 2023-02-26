@@ -88,6 +88,7 @@ p   {
     font-size: 18px;
     line-height: 28px;
     color: var(--darkgray);
+    margin-bottom: 32px;
 }
 
 .black  {
