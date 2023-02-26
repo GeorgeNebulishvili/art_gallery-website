@@ -48,6 +48,10 @@ body    {
     top: 0;
 }
 
+.tab, .desk    {
+    display: none;
+}
+
 .location      {
     color: white;
     background-color: var(--almostblack);
@@ -92,6 +96,7 @@ h3  {
 p   {
     font-family: "outfit";
     color: var(--white);
+    line-height: 28px;
 }
 
 .desc   {
@@ -128,5 +133,36 @@ p   {
 @media screen and (min-width: 768px)    {
 
     
+    .mob    {
+        display: none;
+    }
+
+    .tab    {
+        display: block;
+    }
+    .second {
+        display: flex;
+        padding: 88px 40px 80px 40px;
+    }
+
+    h3  {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .address    {
+        width: 58%;
+        margin-left: 20vw;
+    }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 56px 40px ;
+    }
+
+    .description-footer {
+        width: 35%;
+    }
 
 }
