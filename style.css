@@ -408,6 +408,7 @@ h2  {
 
         .footer {
             padding: 80px 165px;
+            justify-content: space-between;
         }
 
         .description-white-footer   {
