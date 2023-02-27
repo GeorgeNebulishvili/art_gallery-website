@@ -39,6 +39,19 @@ body    {
     background-color: var(--gold);
 }
 
+
+.button:hover .location   {
+    background-color: var(--gold);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.button:hover .arrow    {
+    background-color: var(--almostblack);
+    cursor: pointer;
+    transition: 1s;
+}
+
 .arrow-icon  {
      height: 24px;   
 }
@@ -126,6 +139,12 @@ p   {
     fill: var(--almostblack);
 }
 
+.icon:hover     {
+    fill: var(--background);
+    transition: 1s;
+    cursor: pointer;
+}
+
 .logo   {
     width: 110px;
     height: 40px;
@@ -171,7 +190,9 @@ p   {
 @media screen and (min-width: 1440px)
  {
     body    {
-        max-width: 2880px;
+        max-width: 100%;
+        height: 100vh;
+        display: flex;
         align-items: center;
     }
 
@@ -181,15 +202,17 @@ p   {
 
     .desk   {
         display: block;
-        width: 100%;
+        max-width: 100%;
     }
 
     .second {
         padding: 104px 165px 128px 165px;
+        max-width: 2880px;
     }
 
     .footer {
         padding: 80px 165px;
+        max-width: 2880px;
     }
 
     h2  {

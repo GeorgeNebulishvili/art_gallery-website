@@ -57,6 +57,18 @@ body    {
     display: flex;
 }
 
+.button:hover .location   {
+    background-color: var(--gold);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.button:hover .arrow    {
+    background-color: var(--almostblack);
+    cursor: pointer;
+    transition: 1s;
+}
+
 .arrow {
     width: 56px;
     height: 72px;
@@ -184,9 +196,19 @@ h2  {
     height: 40px;
 }
 
+
 .icons  {
     display: flex;
     column-gap: 20px;
+}
+.icon   {
+    fill: var(--background);
+}
+
+.icon:hover  {
+    fill: var(--gold);
+    cursor: pointer;
+    transition: 1s;
 }
 
 
